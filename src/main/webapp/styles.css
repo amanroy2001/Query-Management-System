@@ -1,0 +1,104 @@
+
+body, h2, p, label {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgba(255, 255, 255, 0.7);
+    background-image: url('1.png'); 
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: right center; 
+}
+
+.container {
+    width: 300px;
+    margin: 0 auto;
+    padding: 90px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    position: relative;
+}
+
+
+
+.logo {
+    width: 70px;
+    top: 10px;
+    left: 10px;
+}
+
+h2 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    text-align: left;
+    margin-top: 10px;
+    color: #333;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+input[type="submit"] {
+    background-color: #0073e6;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+    color: #0073e6;
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 10px;
+    text-decoration: none;
+    background-color: #0073e6;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+
+.button:hover {
+    background-color: #005bbf;
+}
+
+
+p {
+    color: #666;
+    margin-top: 10px;
+}
+
+.error-message {
+    color: #e74c3c;
+    margin-top: 10px;
+}
+
+
+@media screen and (max-width: 480px) {
+    .container {
+        width: 80%;
+    }
+}
